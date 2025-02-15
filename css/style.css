@@ -1,3 +1,4 @@
+/* Navigation Bar */
 nav {
     background-color: blue;
     overflow: hidden;
@@ -30,7 +31,8 @@ nav ul li a {
     display: block;
 }
 
-aside {
+/* Sidebar */
+#sidebar {
     position: fixed;
     right: 0;
     background-color: red;
@@ -41,18 +43,18 @@ aside {
     padding: 0;
 }
 
-aside ul {
+#sidebar ul {
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
-aside ul li {
+#sidebar ul li {
     display: block;
     padding: 15px 0;
 }
 
-aside ul li a {
+#sidebar ul li a {
     color: #fff;
     text-decoration: none;
     background-color: #000;
